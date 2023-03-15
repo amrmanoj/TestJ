@@ -56,7 +56,7 @@ public class StepDefs
 		String act=driver.getTitle();
 		if(act.contains(ext))
 		{
-			s.log("Title test passsed");
+			s.log("WebPage Title test passsed");
 			sa.assertTrue(true);
 		}
 		else

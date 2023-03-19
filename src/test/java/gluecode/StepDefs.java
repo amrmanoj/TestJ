@@ -61,7 +61,7 @@ public class StepDefs
 		}
 		else
 		{
-			s.log("Title test failed");
+			s.log("WebPage Title test failed");
 			sa.assertTrue(false);
 
 		}
